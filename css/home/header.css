@@ -16,14 +16,10 @@
   display: flex;
   gap: 48px;
   flex-wrap: wrap;
-  font-family: "poppins";
-  font-weight: 400;
 }
 .header-menu a {
-  color: #ffffff;
   padding: 16px 0px;
   display: inline-block;
-  font-size: 18px;
   position: relative;
 }
 .header-menu a::after {

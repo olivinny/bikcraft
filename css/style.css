@@ -1,3 +1,6 @@
-@import url(geral.css);
-@import url(header.css);
-@import url(introducao.css);
+@import url(./global/geral.css);
+@import url(./utilitario/tipografia.css);
+@import url(./utilitario/cores.css);
+@import url(./home/header.css);
+@import url(./home/introducao.css);
+@import url(./utilitario/componentes.css);
