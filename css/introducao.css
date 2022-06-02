@@ -1,0 +1,54 @@
+.introducao-bg {
+  background: #000000;
+  color: #ffffff;
+}
+.introducao-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 0 40px;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+.introducao-conteudo {
+  padding-bottom: 80px;
+  align-self: end;
+}
+.introducao-conteudo h1 {
+  font-size: 64px;
+  margin-bottom: 32px;
+  line-height: 1.125;
+}
+.introducao-conteudo p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 24px;
+  color: #b2b2b2;
+}
+.introducao-conteudo h1::after {
+  content: ".";
+  color: var(--cor-p1);
+}
+.introducao-conteudo a {
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(var(--cor-p1), #f2a50c);
+  color: var(--cor-p5);
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.introducao-conteudo a:hover {
+  background: linear-gradient(var(--cor-p2), var(--cor-p2));
+}
+.introducao-container img {
+  height: 100%;
+  object-fit: cover;
+  object-position: 80%;
+}
+.introducao-imagem {
+  margin-bottom: -120px;
+}
