@@ -1,7 +1,7 @@
 @import url(./global/geral.css);
+@import url(./utilitario/componentes.css);
 @import url(./utilitario/tipografia.css);
 @import url(./utilitario/cores.css);
 @import url(./home/header.css);
 @import url(./home/introducao.css);
-@import url(./utilitario/componentes.css);
 @import url(./bicicletas/bicicletas-lista.css);
