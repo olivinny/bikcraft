@@ -1,0 +1,51 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--cor-p1);
+}
+.depoimento img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+.depoimento-conteudo {
+  padding: 40px 80px;
+  align-self: flex-end;
+}
+.depoimento-conteudo p {
+  max-width: 32ch;
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-weight: 900;
+  color: var(--cor-p5);
+  margin-bottom: 32px;
+  position: relative;
+}
+.depoimento-conteudo p::after,
+.depoimento-conteudo p::before {
+  font-size: 5rem;
+  color: var(--cor-p2);
+  position: absolute;
+}
+.depoimento-conteudo p::before {
+  content: "“";
+  top: -20px;
+  left: -50px;
+}
+.depoimento-conteudo p::after {
+  content: "”";
+}
+@media (max-width: 800px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .depoimento-conteudo {
+    padding: 40px 20px;
+    justify-self: center;
+  }
+  .depoimento img {
+    height: 200px;
+  }
+}
