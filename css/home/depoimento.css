@@ -48,4 +48,22 @@
   .depoimento img {
     height: 200px;
   }
+  .depoimento-conteudo p::after,
+  .depoimento-conteudo p::before {
+    font-size: 2.5rem;
+  }
+  .depoimento-conteudo p::before {
+    top: -10px;
+    left: -20px;
+  }
+}
+@media (max-width: 600px) {
+  .depoimento-conteudo p::after,
+  .depoimento-conteudo p::before {
+    font-size: 1.5rem;
+  }
+  .depoimento-conteudo p::before {
+    top: -4px;
+    left: -12px;
+  }
 }
