@@ -2,6 +2,7 @@
 @import "./utilitario/componentes.css";
 @import "./utilitario/tipografia.css";
 @import "./utilitario/cores.css";
+@import "./utilitario/formilario.css";
 @import "./home/header.css";
 @import "./home/introducao.css";
 @import "./bicicletas/bicicletas-lista.css";
@@ -15,3 +16,5 @@
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
 @import "./bicicleta/bicicleta.css";
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
