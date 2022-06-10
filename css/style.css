@@ -2,7 +2,7 @@
 @import "./utilitario/componentes.css";
 @import "./utilitario/tipografia.css";
 @import "./utilitario/cores.css";
-@import "./utilitario/formilario.css";
+@import "./utilitario/formulario.css";
 @import "./home/header.css";
 @import "./home/introducao.css";
 @import "./bicicletas/bicicletas-lista.css";
@@ -18,3 +18,4 @@
 @import "./bicicleta/bicicleta.css";
 @import "./contato/contato.css";
 @import "./contato/lojas.css";
+@import "./orcamento/orcamento.css";
