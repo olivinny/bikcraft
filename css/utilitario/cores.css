@@ -1,0 +1,74 @@
+:root {
+  --cor-0: #ffffff;
+  --cor-1: #f7f7f7;
+  --cor-2: #ededed;
+  --cor-3: #dedede;
+  --cor-4: #cccccc;
+  --cor-5: #b2b2b2;
+  --cor-6: #9c9c9c;
+  --cor-7: #717171;
+  --cor-8: #595959;
+  --cor-9: #404040;
+  --cor-10: #2e2e2e;
+  --cor-11: #111111;
+  --cor-12: #000000;
+  --cor-p1: #ffbb00;
+  --cor-p2: #e4a30b;
+  --cor-p3: #a66f00;
+  --cor-p4: #664400;
+  --cor-p5: #332200;
+}
+.texto-c0 {
+  color: #ffffff;
+}
+.texto-c1 {
+  color: #f7f7f7;
+}
+.texto-c2 {
+  color: #ededed;
+}
+.texto-c3 {
+  color: #dedede;
+}
+.texto-c4 {
+  color: #cccccc;
+}
+.texto-c5 {
+  color: #b2b2b2;
+}
+.texto-c6 {
+  color: #9c9c9c;
+}
+.texto-c7 {
+  color: #717171;
+}
+.texto-c8 {
+  color: #595959;
+}
+.texto-c9 {
+  color: #404040;
+}
+.texto-c10 {
+  color: #2e2e2e;
+}
+.texto-c11 {
+  color: #111111;
+}
+.texto-c12 {
+  color: #000000;
+}
+.texto-cp1 {
+  color: #ffbb00;
+}
+.texto-cp2 {
+  color: #e4a30b;
+}
+.texto-cp3 {
+  color: #a66f00;
+}
+.texto-cp4 {
+  color: #664400;
+}
+.texto-cp5 {
+  color: #332200;
+}
