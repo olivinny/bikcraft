@@ -102,7 +102,7 @@
 .orcamento-dados h2:nth-of-type(n + 2) {
   margin-top: 20px;
 }
-#bikecraft:checked ~ #orcamento-bikecraft,
+#Bikcraft:checked ~ #orcamento-Bikcraft,
 #seguro:checked ~ #orcamento-seguro {
   display: grid;
   gap: 20px;

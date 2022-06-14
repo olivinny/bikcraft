@@ -5,13 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikecraft.">
-  <link rel="preload" href="css/style.css">
+  <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
-  <title>Bikecraft - Bicicletas Elétricas</title>
+  <title>Bikcraft - Bicicletas Elétricas</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 
 <body>
@@ -19,7 +22,7 @@
 
     <div class="header container">
       <a href="./">
-        <img src="./img/bikcraft.svg" alt="Bikecraft">
+        <img src="./img/Bikcraft.svg" alt="Bikcraft">
       </a>
       <nav aria-label="primaria">
         <ul class="header-menu texto-c0 fonte-1-m">
@@ -34,16 +37,16 @@
   <main class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="fonte-1-xxl texto-c0">Bicicletas feitas sob medida<span class="texto-cp1">.</span></h1>
-        <p class="fonte-2-m texto-c5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikecraft.</p>
-        <a class="botao" href="./bicicletas.html">Escolha a sua</a>
+        <h1 class="fonte-1-xxl texto-c0 fadeInLeft" data-anime="200">Bicicletas feitas sob medida<span class="texto-cp1">.</span></h1>
+        <p class="fonte-2-m texto-c5 fadeInLeft" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <a class="botao fadeInLeft" href="./bicicletas.html" data-anime="600">Escolha a sua</a>
       </div>
-      <div class="introducao-imagem">
+      <div class="introducao-imagem fadeInRight" data-anime="800">
         <img src="./img/fotos/introducao.jpg" alt="Bicicleta elétrica preta">
       </div>
     </div>
   </main>
-  <article class="bicicletas-lista">
+  <article class="bicicletas-lista  fadeInUp" data-anime="1000">
     <h2 class="fonte-1-xxl container">escolha a sua<span class="texto-cp1">.</span></h2>
     <ul>
       <li>
@@ -71,7 +74,7 @@
       <div class="tecnologia-conteudo">
         <span class="fonte-2-l-b texto-c5">Tecnologia Avançada</span>
         <h2 class="fonte-1-xxl texto-c0">você escolhe as suas cores e componentes<span class="texto-cp1">.</span></h2>
-        <p class="fonte-2-l texto-c5">Cada Bikecraft é única e possui a sua identodade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomiana sua pedalada. Você pode também personalizar completamente as suas cores.</p>
+        <p class="fonte-2-l texto-c5">Cada Bikcraft é única e possui a sua identodade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomiana sua pedalada. Você pode também personalizar completamente as suas cores.</p>
         <a class="link texto-cp2" href="./bicicletas.html">Escolha um modelo</a>
         <div class="vantagens">
           <div class="vantagens-conteudo">
@@ -129,7 +132,7 @@
           <li>Suporte 08h às 18h</li>
           <li>Cobertura estadual</li>
         </ul>
-        <a class="botao secundario" href="">INSCREVA-SE</a>
+        <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">INSCREVA-SE</a>
       </div>
       <div class="seguros-item">
         <h3 class="fonte-1-xl texto-cp1">OURO</h3>
@@ -142,18 +145,18 @@
           <li>Desconto em parceiros</li>
           <li>Acesso ao Clube Bikcraft</li>
         </ul>
-        <a class="botao" href="">INSCREVA-SE</a>
+        <a class="botao" href="./orcamento.html?tipo=seguro&produto=ouro">INSCREVA-SE</a>
       </div>
     </div>
   </article>
   <footer class="footer-bg texto-c6">
     <div class="footer container">
-      <img src="./img/bikcraft.svg" alt="Bikecraft">
+      <img src="./img/Bikcraft.svg" alt="Bikcraft">
       <div class="footer-contato">
         <h3 class="fonte-2-l-b texto-c0">Contato</h3>
         <ul class="fonte-2-m texto-c5">
           <li><a href=" tel:+552199999999">+55 21 9999-9999</a></li>
-          <li><a href="mailto:contato@bikecraft.com">contato@bikecraft.com</a></li>
+          <li><a href="mailto:contato@Bikcraft.com">contato@Bikcraft.com</a></li>
           <li>Rua Ali Perto 42 - Botafogo</li>
           <li>Rio de Janeiro - RJ</li>
         </ul>
@@ -174,9 +177,11 @@
           </ul>
         </nav>
       </div>
-      <p class="fonte-2-m texto-c6 footer-copy">Bikecraft © Alguns direitos reservados.</p>
+      <p class="fonte-2-m texto-c6 footer-copy">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
